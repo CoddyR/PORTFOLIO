@@ -5,11 +5,27 @@ body {
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-color: #FFE7D2	;
-  background-image: url("img/hero-bg.jpg");
+  background-color: rgba(123, 133, 143, 0.1);
+  background-image: url(img/hero-bg.jpg);
+  /*background-image: url("img/hero-bg.jpg");*/
   background-repeat: no-repeat;
   background-position: top center;
 }
+.parallax{
+	background-image: url(img/hero-bg.jpg);
+	min-height: 600px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 300px;
+}
+.content{
+	height: 1000px;
+	background-color: #ffffff
+	font-size40px;
+}
+
 
 .container {
   max-width: 928px;
@@ -29,11 +45,11 @@ body {
 }
 
 .page-header a {
-  margin-left: 56px;
+  margin-left: 100px;
   color: #288be6;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
 }
 
 .header-email {
@@ -47,7 +63,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 100px;
 }
 
 .hero-image .container {
@@ -58,10 +74,13 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  font-size: 92px;
   line-height: 96px;
   font-weight: 400;
+  text-align: center;
+  padding:1px;
 }
+
 
 .hero-image p {
   margin: 0;
@@ -165,14 +184,17 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #1E1916;
   color: #ffffff;
 }
 
 .page-footer {
+  
   padding: 40px 0;
   background-color: #1E1916	;
   color: #ffffff;
+
+
 }
 
 .page-footer a {
